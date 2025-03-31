@@ -1,90 +1,99 @@
-Team,Elo,Active,AUC24,AUC25 Prediction
-Bench Ultimate B,953.7563015,EOL,NaN,
-Ironbark A,951.3179923,N,NaN,
-Bench Ultimate,1039.273583,N,NaN,
-Colony Pillage,1563.865667,N,NaN,
-Colony Plunder,1746.514507,N,NaN,
-Newcastle U-Beam,918.6942053,N,NaN,
-Newcastle I-Beam,1480.271319,Y,10th,
-Combine - IWU & DUFF,1005.730321,EOL,NaN,
-Fyshwick United,1535.511698,Y,4th,
-Fyshwick Unit,1177.875492,N,NaN,
-The Rum Corps,1016.473985,EOL,NaN,
-Nomads,835.2523172,N,NaN,
-Fyshwick University,767.5359496,N,NaN,
-Manly Ultimate,959.4832979,EOL,NaN,
-Adelaide Outbreak Apocalypse,962.3086153,N,NaN,
-Melbourne Colossus,856.2154231,N,NaN,
-Outbreak Mountain,1370.788975,Y,9th,
-Fresh Chilly,1042.395897,N,NaN,
-Melbourne Carnage,1041.090892,N,NaN,
-Ballarat Gold Diggers,951.1521497,N,NaN,
-Convicts,937.3691147,N,NaN,
-Phat Chilly,978.1146061,N,NaN,
-Quoll,1036.795595,N,NaN,
-Melbourne Wild Chilly,868.6542831,EOL,NaN,
-Melbourne Juggernaut,1615.220196,Y,5th,
-Hot Chilly,1369.906343,Y,3rd,
-Mammoth,1447.733487,Y,11th,
-Mammoth II,1075.558919,N,NaN,
-Sydney Colony,1028.345089,EOL,NaN,
-Townsvillains,1056.067941,N,NaN,
-Melbourne Hawthorn Apocalypse,997.6084489,EOL,NaN,
-Hawthorn Apocalypse,985.1852186,EOL,NaN,
-Extinction,886.7913252,N,NaN,
-Krank,1255.070062,Y,12th,
-Bronze Bullseye,1045.812797,N,NaN,
-Sublime Ultimate Club,1452.597878,Y,8th,
-Wildcats,1501.827633,N,NaN,
-Geelong Mudlarks,1107.963477,N,NaN,
-Outbreak Pandemic,943.0828121,EOL,NaN,
-Nunya,802.4942234,EOL,NaN,
-Outbreak Apocalypse,989.6219251,N,NaN,
-YoungBloods,1043.583448,N,NaN,
-DUFF Stout,1234.297556,N,NaN,
-Ironbark B,940.5171039,EOL,,
-SWU Claw,640.2023362,N,NaN,
-Colony Rum Corps,1026.667407,EOL,NaN,
-Outbreak Panmountalypse,1017.469034,EOL,NaN,
-Roo Bois,1041.83682,EOL,NaN,
-Outbreak,998.2165984,EOL,NaN,
-Sydney Colony Y,1017.557375,EOL,NaN,
-Reverse Garbage,887.8228365,EOL,NaN,
-Sydney Colony X,1022.073975,EOL,NaN,
-H-Beam,1049.394035,EOL,NaN,
-Bench X,961.3578542,EOL,NaN,
-Bench Y,971.1752419,EOL,NaN,
-Shiok,1048.786154,EOL,NaN,
-Colony Mutiny,1632.011842,EOL,NaN,
-DUFF,1048.651529,EOL,NaN,
-Ikigai Ultimate,950.49241,EOL,NaN,
-Colony Uprising,1647.053979,EOL,NaN,
-Ellipsis Men,1786.438377,Y,1st,
-Gold Coast Ultimate,1002.986551,N,NaN,
-Dogma,1457.717954,EOL,NaN,
-Sunder Dice,1709.698932,Y,7th,
-Sunder Slice,1768.46301,Y,2nd,
-Kronk,683.628188,N,NaN,
-Manly Mullets,1393.812562,Y,6th,
-Kraken,967.6057086,N,NaN,
-Fyshwuck Unit,995.758687,EOL,NaN,
-Tritons,889.2170108,EOL,NaN,
-Fyshwack Unit,1075.632735,EOL,NaN,
-_xX_DrAg0NSL4Y3Rs_Xx_,793.6447304,N,NaN,
-Albury Wodonga Ultimate,852.7980677,N,NaN,
-NSU Borealis,1162.630442,N,NaN,
-Manly Muckerels,914.4210435,EOL,NaN,
-Lé Sprucé Branché,964.5230801,EOL,NaN,
-Status Quo,1028.511431,EOL,NaN,
-Krank A,974.6868388,EOL,NaN,
-Krank 1,990.5541732,EOL,NaN,
-Sunder Combined,1223.326437,EOL,NaN,
-Equinox,1062.813007,N,NaN,
-Manly Moes,1016.057794,N,NaN,
-Outclass,900.57104,EOL,NaN,
-Outbroken,984.0007717,EOL,NaN,
-Trail Mix,908.3638399,N,NaN,
-Sublime Ultimate Club B,971.9575662,N,NaN,
-Brisbanites,1052.388925,N,NaN,
-Horizon Ultimate,923.0640572,N,NaN,
-Adelaide Outbreak,1018.680223,EOL,NaN,
+Team,Elo,Active,Form,AUC24,AUC25 Prediction
+Bench Ultimate B,1157.597464,EOL,0.3,NaN,NaN
+Ironbark A,1172.375854,N,0.3,NaN,NaN
+Bench Ultimate,1226.652894,N,0.5,NaN,NaN
+Colony Pillage,1570.308446,N,0.5,NaN,NaN
+Colony Plunder,1753.92105,N,1,NaN,NaN
+Newcastle U-Beam,1038.341301,N,0,NaN,NaN
+Newcastle I-Beam,1490.521591,Y,0.8,10th,9th
+Combine - IWU & DUFF,1200.791424,EOL,0.3,NaN,NaN
+Fyshwick United,1560.183255,Y,0.7,4th,3rd
+Fyshwick Unit,1268.031937,N,0.7,NaN,NaN
+The Rum Corps,1211.668816,EOL,0.5,NaN,NaN
+Nomads,924.8923388,N,0,NaN,NaN
+Fyshwick University,1077.17464,N,0.2,NaN,NaN
+Manly Ultimate,1156.452476,EOL,0.5,NaN,NaN
+Adelaide Outbreak Apocalypse,1159.145035,N,0.4,NaN,NaN
+Melbourne Colossus,1040.452074,N,0.1,NaN,NaN
+Outbreak Mountain,1447.36552,Y,0.6,9th,12th
+Fresh Chilly,1210.892245,N,0.6,NaN,NaN
+Melbourne Carnage,1279.992072,N,0.8,NaN,NaN
+Ballarat Gold Diggers,1173.770279,N,0.4,NaN,NaN
+Convicts,1135.862874,N,0,NaN,NaN
+Phat Chilly,1185.547496,N,0.4,NaN,NaN
+Quoll,1193.440794,N,0.6,NaN,NaN
+Melbourne Wild Chilly,1067.12849,EOL,0,NaN,NaN
+Melbourne Juggernaut,1556.655791,Y,0.5,5th,4th
+Hot Chilly,1501.25459,Y,0.5,3rd,7th
+Mammoth,1455.189598,Y,0.2,11th,11th
+Mammoth II,1170.614765,N,0.3,NaN,NaN
+Sydney Colony,1225.775976,EOL,0.75,NaN,NaN
+Townsvillains,1245.207059,N,0.6,NaN,NaN
+Melbourne Hawthorn Apocalypse,1195.878371,EOL,0.5,NaN,NaN
+Hawthorn Apocalypse,1184.925327,EOL,0.4,NaN,NaN
+Extinction,1141.966944,N,0,NaN,NaN
+Krank,1392.517622,N,0.4,12th,NaN
+Bronze Bullseye,1244.024805,N,0.6,NaN,NaN
+Sublime Ultimate Club,1460.552267,Y,0.2,8th,10th
+Wildcats,1504.447638,Y,0.4,NaN,8th
+Geelong Mudlarks,1243.028865,N,0.4,NaN,NaN
+Outbreak Pandemic,1141.848463,EOL,0.2857142857,NaN,NaN
+Nunya,1001.182014,EOL,0.1,NaN,NaN
+Outbreak Apocalypse,1133.759241,N,0.3,NaN,NaN
+YoungBloods,1242.412048,N,0.5,NaN,NaN
+DUFF Stout,1341.489373,N,0.5,NaN,NaN
+Ironbark B,1140.123147,EOL,0.2,,NaN
+SWU Claw,933.4626814,N,0.2,NaN,NaN
+Colony Rum Corps,1220.607667,EOL,0.5,NaN,NaN
+Outbreak Panmountalypse,1215.460247,EOL,0.5,NaN,NaN
+Roo Bois,1240.675625,EOL,1,NaN,NaN
+Outbreak,1192.868721,EOL,0.2,NaN,NaN
+Sydney Colony Y,1216.978484,EOL,0.5,NaN,NaN
+Reverse Garbage,1084.318117,EOL,0.2,NaN,NaN
+Sydney Colony X,1220.887548,EOL,0.6666666667,NaN,NaN
+H-Beam,1249.354419,EOL,0.5,NaN,NaN
+Bench X,1161.33272,EOL,0,NaN,NaN
+Bench Y,1170.855623,EOL,0,NaN,NaN
+Shiok,1235.252699,EOL,0.5,NaN,NaN
+Colony Mutiny,1426.40387,EOL,0.6,NaN,NaN
+DUFF,1228.507233,EOL,0.6,NaN,NaN
+Ikigai Ultimate,1147.011937,EOL,0.4,NaN,NaN
+Colony Uprising,1429.174668,EOL,0.9,NaN,NaN
+Ellipsis Men,1703.399305,Y,0.9,1st,1st
+Gold Coast Ultimate,1201.680648,N,0.5714285714,NaN,NaN
+Dogma,1448.625362,EOL,0.2857142857,NaN,NaN
+Sunder Dice,1569.085335,Y,0.4,7th,5th
+Sunder Slice,1683.916673,Y,0.8,2nd,2nd
+Kronk,973.6220585,N,0.2,NaN,NaN
+Manly Mullets,1522.049255,Y,0.6,6th,6th
+Kraken,1162.604678,N,0.4,NaN,NaN
+Fyshwuck Unit,1191.630054,EOL,0.5,NaN,NaN
+Tritons,1087.043226,EOL,0.2,NaN,NaN
+Fyshwack Unit,1270.568815,EOL,0.6,NaN,NaN
+_xX_DrAg0NSL4Y3Rs_Xx_,1136.444225,N,0.4,NaN,NaN
+Albury Wodonga Ultimate,1020.418254,N,0.4,NaN,NaN
+NSU Borealis,1450.929894,N,0.8,NaN,NaN
+Manly Muckerels,1113.466487,EOL,0.25,NaN,NaN
+Lé Sprucé Branché,1162.875444,EOL,0.375,NaN,NaN
+Status Quo,1222.613782,EOL,0.6,NaN,NaN
+Krank A,1172.068954,EOL,0,NaN,NaN
+Krank 1,1186.996183,EOL,0.4444444444,NaN,NaN
+Sunder Combined,1365.06119,EOL,0.6,NaN,NaN
+Equinox,1336.159529,N,0.4,NaN,NaN
+Manly Moes,1215.88885,N,0.8,NaN,NaN
+Outclass,1098.193947,EOL,0,NaN,NaN
+Outbroken,1179.781527,EOL,0.25,NaN,NaN
+Trail Mix,1121.479649,N,0.3,NaN,NaN
+Sublime Ultimate Club B,1185.713948,N,0.4,NaN,NaN
+Brisbanites,1223.93028,N,0.5,NaN,NaN
+Horizon Ultimate,1160.169156,N,0.4,NaN,NaN
+Adelaide Outbreak,1203.929965,EOL,0.4,NaN,NaN
+Chilly Cartel,1242.540485,N,0.5,NaN,NaN
+Craigieburn Pelicans,1200.094783,N,0.3333333333,NaN,NaN
+Chilly Mafia,1202.506349,N,0.3333333333,NaN,NaN
+Hills Ironbark,1234.625421,N,0.7,NaN,NaN
+Fyshwick Unit Y,1202.65653,N,0.6,NaN,NaN
+Zephyr,1086.658093,N,0.4,NaN,NaN
+Fyshwick Unit X,1298.930668,N,0.5,NaN,NaN
+Cragieburn Pelicans,1175.921051,N,0.4,NaN,NaN
+UR a frisbee harry,914.9489943,N,0,NaN,NaN

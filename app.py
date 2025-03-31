@@ -286,14 +286,15 @@ opens_per = opens_per.rename(columns={'OVR_PER': 'PER',
 
 # Dictionary of image links for each AUC team
 team_image_links = {
-    "Ellipsis Men": "https://d36m266ykvepgv.cloudfront.net/uploads/media/bK7BbFw4L1/c-160-160/th-1.jpg",
-    "Ellipsis Ampersand": "https://d36m266ykvepgv.cloudfront.net/uploads/media/bK7BbFw4L1/c-160-160/th-1.jpg",
-    "Ellipsis Asterisk": "https://d36m266ykvepgv.cloudfront.net/uploads/media/bK7BbFw4L1/c-160-160/th-1.jpg",
-    "Ellipsis Pilcrow": "https://d36m266ykvepgv.cloudfront.net/uploads/media/bK7BbFw4L1/c-160-160/th-1.jpg",
+    "Ellipsis Men": "https://d36m266ykvepgv.cloudfront.net/uploads/media/UEauZjc0JK/c-160-160/black-combo.png",
+    "Ellipsis Ampersand": "https://d36m266ykvepgv.cloudfront.net/uploads/media/UEauZjc0JK/c-160-160/black-combo.png",
+    "Ellipsis Asterisk": "https://d36m266ykvepgv.cloudfront.net/uploads/media/UEauZjc0JK/c-160-160/black-combo.png",
+    "Ellipsis Pilcrow": "https://d36m266ykvepgv.cloudfront.net/uploads/media/UEauZjc0JK/c-160-160/black-combo.png",
     "Sunder Slice": "https://d36m266ykvepgv.cloudfront.net/uploads/media/TGYjv5thjP/c-200-200/screenshot-2024-10-08-at-4-38-56-pm.png",
     "Sunder Dice": "https://d36m266ykvepgv.cloudfront.net/uploads/media/TGYjv5thjP/c-200-200/screenshot-2024-10-08-at-4-38-56-pm.png",
     "Manly Mullets":"https://d36m266ykvepgv.cloudfront.net/uploads/media/Nhz4yuMML7/c-172-160/mufl-logo-2019-female-square2-3.png",
     "Manly Mavericks":"https://d36m266ykvepgv.cloudfront.net/uploads/media/Nhz4yuMML7/c-172-160/mufl-logo-2019-female-square2-3.png",
+    "Manly Marlins":"https://d36m266ykvepgv.cloudfront.net/uploads/media/Nhz4yuMML7/c-172-160/mufl-logo-2019-female-square2-3.png",
     "Newcastle I-Beam":"https://d36m266ykvepgv.cloudfront.net/uploads/media/3ytKb9Wgba/c-198-160/ibeam1-1.gif",
     "Melbourne Juggernaut":"https://d36m266ykvepgv.cloudfront.net/uploads/media/5RUvk0cH0M/c-174-160/hoslogo.png",
     "Krank":"https://d36m266ykvepgv.cloudfront.net/uploads/media/J1xeSJsjiy/c-160-160/krank-fist.png",
@@ -311,7 +312,9 @@ team_image_links = {
     "Zig Theory":"https://d36m266ykvepgv.cloudfront.net/uploads/media/Vh8ZZFJXdd/c-160-160/zig-theory-logo.jpg",
     "Melbourne Phoenix":"https://d36m266ykvepgv.cloudfront.net/uploads/media/5RUvk0cH0M/c-174-160/hoslogo.png",
     "NSU Aurora":"https://d36m266ykvepgv.cloudfront.net/uploads/media/w1LcQPWkVe/c-174-160/nsu-logo-1.jpg",
-    "Surge":"https://d36m266ykvepgv.cloudfront.net/uploads/media/DgICPvDdQB/c-160-160/12788206-10101839154706327-327686883-n.jpg"
+    "Surge":"https://d36m266ykvepgv.cloudfront.net/uploads/media/DgICPvDdQB/c-160-160/12788206-10101839154706327-327686883-n.jpg",
+    "Wildcats":"https://d36m266ykvepgv.cloudfront.net/uploads/media/gT1kvCgogs/c-164-160/wildcats-logo-1.jpg",
+    "Sugar Magnolias":"https://d36m266ykvepgv.cloudfront.net/uploads/media/zv8xfxaqSf/c-178-160/sugar-magnolia-ultimate-logo.jpg",
 }
 
 # Dictionary of image links for the ELO Formulas
@@ -333,13 +336,13 @@ womens_current_elo_AUC2024 = womens_current_elo_AUC2024[['Team', 'Club', 'Elo','
 
 ################ TEXT WORKINGS #################
 elo_AUC_summary = """
-Updated after every tournament. Elo rankings and predicted AUC result may differ depending on AUC seedings & pools.
+Updated after every tournament, latest tournament included for Open's is Goanna Invite for Women's it is Canberra Cup. Elo rankings and predicted AUC result may differ depending on AUC seedings & pools.
 """
 
 elo_explanation_1 = """
-ELO ratings are a ranking system used to calculate the relative skill levels of players in two-player games most commonly chess, but they can also be applied to sports. Named after Hungarian-American chess player Arpad Elo, the system works by assigning a numerical rating to each player or team based on their performance against other rated players/teams.
+ELO ratings are a ranking system which can be used to calculate the relative skill levels of players in head to head games, most commonly chess, but they can also be applied to sports. Named after Hungarian-American chess player Arpad Elo, the Elo system works by assigning a numerical rating to each player or team based on their performance against other rated players/teams.
 
-In the AUC system, each competing team has been assigned a numerical Elo rating after they play their first game on the Australian Ultimate Championship calendar. Division 1 teams were set at 1500, Division 2 at 1000. The data used for the Elo rankings was pulled from AUC calendar tournaments dating from January 2017.
+In the AUC system, each competing team has been assigned a numerical Elo rating after they play their first game on the Australian Ultimate Championship calendar. Historic Division 1 teams were set at 1500, new or Division 2 at 1200. The data used for the Elo rankings was pulled from AUC calendar tournaments dating from January 2017.
 
 The standard Elo formula for updating a team's rating is outlined in the picture below. 
 """
@@ -350,7 +353,7 @@ The AUC version has a few considerations and modifications:
 1. **Strength of Squad:** AUC Division 1 Teams were assessed on the strength of the playing squad at each tournament, and marked into one of 3 categories; full strength, mid strength, low strength. This was used as a factor for a team's performance as an indicator of true strength, and adjusted the Elo points gained or lost.
 2. **Strength of Win:** A larger score difference between the 2 teams will result in greater Elo changes.
 3. **Tournament Significance:** Tournaments on the AUC calendar were assessed on their importance to the playing cohort. Division 1 & 2 Nationals were marked as the most significant, followed by State Championships and then lastly all other warm-up tournaments. Results at more significant tournaments have a greater impact on Elo rating updates.
-4. **Changing Squads:** AUC teams have player turnover each year, the Elo point total of a squad from 2023 at the end of the season should not be wholly attributed to the 2024 team. At the beginning of each new season a team's Elo was adjusted towards the mean rating for the Division the team placed, in the previous year.
+4. **Changing Squads:** AUC teams have player turnover each year, the Elo point total of a squad from 2023 at the end of the season should not be wholly attributed to the 2024 team. At the beginning of each new season a team's Elo was adjusted towards the mean rating for the Division that the team placed, in the previous year.
 5. **Teams on the Rise/Fall:** Teams which have recently moved from Division 2 to Division 1 (or vice versa), have a greater K factor. Allowing teams that are improving quickly to have larger Elo increases, or teams which have fallen off to have bigger decreases reflecting current strength quicker.
 """
 
